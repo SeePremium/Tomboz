@@ -94,8 +94,8 @@ async def next_page(bot, query):
         offset = int(offset)
     except:
         offset = 0
-    if Tᴇxᴛ.get(key)!=None:
-        search = Tᴇxᴛ.get(key)
+    if BUTTONS.get(key)!=None:
+        search = BUTTONS.get(key)
     else:
         search = FRESH.get(key)
     if not search:
