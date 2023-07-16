@@ -194,7 +194,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """
-@Filmy_Fundas {file_name}
+ {file_name}
 
 ❍ sɪᴢᴇ : {file_size}"""
 
