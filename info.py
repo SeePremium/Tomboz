@@ -48,13 +48,13 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Ttbot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-VERIFY = bool(environ.get('VERIFY', True))
+VERIFY = bool(environ.get('VERIFY', False))
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/cine_hub2/188")
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'omnifly.in.net')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'af56593635bc47645ee36dafb3666e5b49fc5d95')
 SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'omnifly.in.net')
 SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', 'af56593635bc47645ee36dafb3666e5b49fc5d95')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
