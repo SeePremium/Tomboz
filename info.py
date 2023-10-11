@@ -49,7 +49,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', True))
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/cine_hub2/188")
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/tutorial003/17")
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'jnglink.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'fe2d9fd4d48d727451898854046390a2f45b8fac')
 SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'jnglink.in')
