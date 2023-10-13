@@ -48,10 +48,10 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "clustor0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-VERIFY = bool(environ.get('VERIFY', True))
+VERIFY = bool(environ.get('VERIFY', False))
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/tutorial003/17")
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'indianshortner.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'b5393e688c5db4b076d2e978440a25c2421fc825')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'moneykamalo.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'bea7d4dbbd9a3acf845d131a0748d72cb97fda9a')
 SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'shareus.io')
 SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', 'hBUUyAR8EmhP0WZUHH7gnDvUaK92')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
