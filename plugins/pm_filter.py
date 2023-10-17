@@ -62,7 +62,7 @@ async def give_filter(client, message):
                     await auto_filter(client, message) 
     else: #a better logic to avoid repeated lines of code in auto_filter function
         search = message.text
-        temp_files, temp_offset, total_results = await get_search_results(chat_id=message.chat.id, query=search.lower(), offset=0, filter=True)
+        temp_files, temp_offset, total_results = await get_search_results(chat_id=message.chat.id, query=search.lower(), offset=0, filter=False)
         if total_results == 0:
             return
         else:
